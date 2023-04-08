@@ -5,13 +5,12 @@
     margin-right: 22%;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: #323B4C;
 }
 
 .container_sm {
     display: flex;
     width: 650px;
-    display: flex;
 }
 
 .flex-item {
@@ -22,7 +21,6 @@ div {
     font-family: Poppins, Tahoma, Verdana, Segoe, sans-serif;
     /* padding: 5px; */
 }
-
 
 .left {
     background-color: #323B4C;
@@ -62,8 +60,6 @@ div {
 }
 
 
-
-
 .contents {
     margin-left: 5%;
     margin-right: 5%;
@@ -88,6 +84,7 @@ div {
 
 .skills {
     line-height: 0.7;
+    margin-bottom: 50px;
 }
 
 .about_me {
@@ -102,8 +99,8 @@ div {
     margin-bottom: 50px;
 }
 
-a {
-    color: inherit;
+.expertise {
+    margin-bottom: 50px;
 }
 
 
