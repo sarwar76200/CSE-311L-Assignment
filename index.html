@@ -7,6 +7,7 @@
     <title>Resume</title>
     <link href="./style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/46190d2053.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -20,8 +21,20 @@
                 <h2>SAROWAR A. MINHAJ</h2>
             </div>
             <div class="designation">
-                <p>Competitive Programmer</p>
+                <span class="light type_animation"></span>
             </div>
+            <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+            <script>
+                let typed = new Typed(".type_animation", {
+                    strings: ['Competitive Programmer', 'Undergraduate Student', 'Problem Solving Enthusiast'],
+                    typeSpeed: 50,
+                    backSpeed: 35,
+                    loop: true
+                });
+
+            </script>
 
 
             <div class="contact">
@@ -31,6 +44,9 @@
                 <p><i class="fa-solid fa-envelope"></i> sarowar.minhaj@northsouth.edu</p>
                 <a style="color: inherit; text-decoration: none;" href="https://github.com/sarwar76200"><i
                         class="fa-brands fa-github"></i> Sarwar76200</a>
+                <p></p>
+                <a style="color: inherit; text-decoration: none;" href="https://codeforces.com/profile/sarwar__"><i
+                        class="fa-solid fa-ranking-star"></i> sarwar__</a>
                 <p><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</p>
             </div>
 
@@ -123,7 +139,8 @@
 
 </div>
 <div class="container repo">
-    <a style="color: inherit; text-decoration: none;" href="https://github.com/sarwar76200/CSE-311L-Assignment">View in
+    <a onclick="confetti()" style="color: inherit; text-decoration: none;"
+        href="https://github.com/sarwar76200/CSE-311L-Assignment">View in
         GitHub <i class="fa-brands fa-github fa-fade"></i></a>
 </div>
 
