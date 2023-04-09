@@ -1,12 +1,10 @@
 .container {
     display: flex;
     width: 1000px;
-    margin-left: 22%;
-    margin-right: 22%;
     border-style: solid;
     border-width: 1px;
     border-color: #323B4C;
-    
+
 }
 
 .container_sm {
@@ -86,11 +84,11 @@ div {
 
 .skills {
     line-height: 0.7;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .about_me {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .education {
@@ -102,7 +100,7 @@ div {
 }
 
 .expertise {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -113,3 +111,9 @@ div {
     align-items: center;
 
 }
+
+
+.semi_bold {
+    font-weight: 600;
+}
+
